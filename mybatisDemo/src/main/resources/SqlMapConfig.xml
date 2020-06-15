@@ -22,6 +22,8 @@
 
 <!--指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件-->
     <mappers>
-        <mapper resource="com/dao/mybatisMainDao.xml"></mapper>
+<!--        <mapper resource="com/dao/mybatisMainDao.xml"></mapper>-->
+<!--使用注解配置-->
+        <mapper class="com.dao.mybatisMainDao"></mapper>
     </mappers>
 </configuration>
